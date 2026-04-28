@@ -1,0 +1,24 @@
+{
+  "name": "chart-css-data-processor",
+  "version": "1.0.0",
+  "description": "To format, pre-process, and generate viz using chartCSS as the display tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OGS-Digital-Service/Chart-CSS-Data-Processor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OGS-Digital-Service/Chart-CSS-Data-Processor/issues"
+  },
+  "homepage": "https://github.com/OGS-Digital-Service/Chart-CSS-Data-Processor#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "charts.css": "^1.2.0"
+  }
+}
