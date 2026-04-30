@@ -1,16 +1,16 @@
 [
     {
-        "title":"Something",
+        "title":"January",
         "value":"234,678",
         "largest": false
     },
     {
-        "title":"Another one",
+        "title":"February",
         "value":"654,678",
         "largest": true
     },
     {
-        "title":"Other",
+        "title":"March",
         "value":"34,123",
         "largest": false
     }

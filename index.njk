@@ -8,7 +8,15 @@ data: _test
 {{
     barChart({
         title:"Test bar chart number one!",
-        dataSource:"",
+        dataSource: _test,
+        tableHeaders:[
+            {
+                title:"Month"
+            },
+            {
+                title:"Users"
+            }
+        ],
         legend:""
     })
 }}

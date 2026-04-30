@@ -1,0 +1,36 @@
+module.exports = {
+  content: [
+    '!./_site/reports/**/**/*.html',
+     './_site/*.html',
+    './_site/**/*.html'
+    
+  ],
+  theme: {
+    fontFamily: {
+      sans: ['Noto Sans', 'Arial', 'sans-serif']
+     },
+    extend: {
+      colors: {
+          'primary-core-blue': '#154973',
+          'secondary-core-blue': '#457AA5',
+          'link-blue': '#004DD1',
+          'tertiary-core-blue': '#EFF6FB',
+          'quaternary-blue': '#007AC2',
+          'core-accent-yellow': '#FACE00',
+          'yellow-alert': '#FFE396',
+          'black': '#000000',
+          'darkest-gray': '#242424',
+          'dark-gray': '#62666A',
+          'mid-gray': '#D0D0CE',
+          'light-gray': '#EDEDED',
+          'white': '#FFFFFF',
+          'dark-red-alert': '#B32E31',
+          'light-red-alert': '#FEC3C3',
+          'success-green': '#329d08',
+          'warning-orange': '#d4820c'
+      }
+    }
+  },
+  plugins: [],
+}
+

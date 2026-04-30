@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
     "build": "npx @11ty/eleventy"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/OGS-Digital-Service/Chart-CSS-Data-Processor#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "charts.css": "^1.2.0"
+    "charts.css": "^1.2.0",
+    "tailwindcss": "^3.4.17"
   }
 }
