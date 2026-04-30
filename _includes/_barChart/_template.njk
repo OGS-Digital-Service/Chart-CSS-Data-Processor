@@ -1,0 +1,40 @@
+{% set chartData = params.dataSource %} 
+<table class="charts-css column show-labels show-heading" id="column-chart">
+    <caption>{{params.title}}</caption>
+
+    <thead>
+        {# table header column scoping needs to be defined in both the dataset and the component import #}
+        <tr>
+            {% for header in params.tableHeaders %}
+                <th scope="col">{{header.title}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+
+    <tbody>
+--start 0.0; --end: 1.0;
+
+if largest then size 1.0
+else
+value divided by the largest value
+
+
+
+        {% for row in chartData %}
+        <tr>
+            <th scope="row">{{row.title}}</th>
+            <td style="
+            
+            {% if row.largest == true %}
+            --size: 1.0;
+            {% else %}
+
+            CALCULATION
+            {% endif %}
+            
+            
+            ">{{row.value}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

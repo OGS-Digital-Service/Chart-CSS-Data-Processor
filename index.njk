@@ -1,0 +1,14 @@
+---
+layout: layout.njk
+title: NYS Digital Service ChartCSS Processor
+data: _test
+---
+{% from './_includes/_components.njk' import barChart with context %}
+
+{{
+    barChart({
+        title:"Test bar chart number one!",
+        dataSource:"",
+        legend:""
+    })
+}}

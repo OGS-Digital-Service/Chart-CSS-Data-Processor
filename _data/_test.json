@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Something",
+        "value":"234,678",
+        "largest": false
+    },
+    {
+        "title":"Another one",
+        "value":"654,678",
+        "largest": true
+    },
+    {
+        "title":"Other",
+        "value":"34,123",
+        "largest": false
+    }
+]
