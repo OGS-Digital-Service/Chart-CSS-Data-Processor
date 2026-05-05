@@ -1,17 +1,17 @@
 [
     {
         "title":"January",
-        "value":"234,678",
+        "value":"234678",
         "size":"0.358"
     },
     {
         "title":"February",
-        "value":"654,678",
+        "value":"654678",
         "size":"1.0"
     },
     {
         "title":"March",
-        "value":"34,123",
+        "value":"34123",
         "size":"0.052"
     }
 ]

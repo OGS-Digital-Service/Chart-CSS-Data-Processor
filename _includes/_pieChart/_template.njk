@@ -1,0 +1,26 @@
+{% set chartData = params.dataSource %}
+{% set total = 0 %}
+
+{# calculate total for percentage calculations #}
+{% for row in chartData %}
+    {% set total = total + row.value %}
+{% endfor %}
+
+<table class="charts-css pie show-labels" id="pie-chart">
+    <caption>{{ params.title }}</caption>
+    <tbody>
+        {% set cumulative = 0 %}
+
+        {% for row in chartData%}
+            {% set size = row.value / total %}
+            <tr>
+                <th scope="row">{{ row.title }}</th>
+                <td style="--start: {{ cumulative }}; --size: {{ size }}">
+                    <span class="_test">{{ row.value }}</span>
+                </td>
+            </tr>
+
+            {% set cumulative = cumulative + size %}
+        {% endfor %}
+    </tbody>
+</table>

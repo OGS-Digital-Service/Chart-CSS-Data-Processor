@@ -3,7 +3,7 @@ layout: layout.njk
 title: NYS Digital Service ChartCSS Processor
 data: _test
 ---
-{% from './_includes/_components.njk' import barChart with context %}
+{% from './_includes/_components.njk' import barChart, pieChart with context %}
 
 {{
     barChart({
@@ -19,5 +19,18 @@ data: _test
             }
         ],
         legend:""
+    })
+}}
+
+{{
+    pieChart({
+        title:"",
+        dataSource: [
+        {
+            title:"",
+            value:"",
+            size: 0
+        }
+    ]
     })
 }}
