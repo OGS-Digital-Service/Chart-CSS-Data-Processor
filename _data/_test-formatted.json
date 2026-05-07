@@ -1,0 +1,17 @@
+[
+    {
+        "title": "January",
+        "value": "234,678",
+        "relative_value": 0.3585
+    },
+    {
+        "title": "February",
+        "value": "654,678",
+        "relative_value": 1.0
+    },
+    {
+        "title": "March",
+        "value": "34,123",
+        "relative_value": 0.0521
+    }
+]
