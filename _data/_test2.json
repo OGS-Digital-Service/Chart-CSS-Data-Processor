@@ -1,14 +1,17 @@
 [
     {
         "title":"January",
-        "value":"234,678"
+        "value":"234,678",
+        "something_new":"23,535"
     },
     {
         "title":"February",
-        "value":"654,678"
+        "value":"654,678",
+        "something_new":"2,535"
     },
     {
         "title":"March",
-        "value":"34,123"
+        "value":"34,123",
+        "something_new":"233,535"
     }
 ]
