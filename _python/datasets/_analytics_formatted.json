@@ -4,7 +4,7 @@
         "users": "1,675,957",
         "percent": "21.60%",
         "change": "up",
-        "graphValue": "21.60%",
+        "graphValue": "1,675,957",
         "rowHeader": "NY.gov"
     },
     {
@@ -12,7 +12,7 @@
         "users": "406,553",
         "percent": "8.10%",
         "change": "up",
-        "graphValue": "8.10%",
+        "graphValue": "406,553",
         "rowHeader": "Governor"
     },
     {
@@ -20,7 +20,7 @@
         "users": "1,243,706",
         "percent": "9.30%",
         "change": "up",
-        "graphValue": "9.30%",
+        "graphValue": "1,243,706",
         "rowHeader": "Department of Health"
     },
     {
@@ -28,7 +28,7 @@
         "users": "3,553,663",
         "percent": "7.70%",
         "change": "up",
-        "graphValue": "7.70%",
+        "graphValue": "3,553,663",
         "rowHeader": "Department of Motor Vehicles"
     },
     {
@@ -36,7 +36,7 @@
         "users": "842,312",
         "percent": "2.60%",
         "change": "up",
-        "graphValue": "2.60%",
+        "graphValue": "842,312",
         "rowHeader": "Department of Labor"
     },
     {
@@ -44,7 +44,7 @@
         "users": "352,032",
         "percent": "6.40%",
         "change": "up",
-        "graphValue": "6.40%",
+        "graphValue": "352,032",
         "rowHeader": "Office of Temporary and Disability Assistance"
     },
     {
@@ -52,7 +52,7 @@
         "users": "2,201,385",
         "percent": "28.50%",
         "change": "up",
-        "graphValue": "28.50%",
+        "graphValue": "2,201,385",
         "rowHeader": "Department of Taxation and Finance"
     },
     {
@@ -60,7 +60,7 @@
         "users": "832,820",
         "percent": "2.50%",
         "change": "up",
-        "graphValue": "2.50%",
+        "graphValue": "832,820",
         "rowHeader": "NY State of Health"
     }
 ]
