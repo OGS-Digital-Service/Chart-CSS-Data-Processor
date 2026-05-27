@@ -1,19 +1,19 @@
 {% set chartData = params.dataSource %} 
 <table class="charts-css column show-labels show-heading" id="column-chart">
     <caption>{{params.title}}</caption>
+
     <thead>
-        {# table header column scoping needs to be defined in both the dataset and the component import #}
         <tr>
-            {% for header in params.tableHeaders %}
-                <th scope="col">{{header.title}}</th>
+            {% for header in chartData %}
+                <th scope="col">{{header.rowHeader}}</th>
             {% endfor %}
         </tr>
     </thead>
     <tbody>
         {% for row in chartData %}
         <tr>
-            <th scope="row">{{row.title}}</th>
-            <td style="--size: {{row.size}}">{{row.value}} </td>
+            <th scope="row">{{row.rowHeader}}</th>
+            <td style="--size: {{row.relative_value}}">{{row.graphValue}} </td>
         </tr>
         {% endfor %}
     </tbody>

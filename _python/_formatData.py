@@ -18,31 +18,35 @@ def load_json_data(file_path):
 def get_available_keys(data):
     """Extracts unique keys from the dataset to present as options."""
     if isinstance(data, list) and len(data) > 0:
-        # Assuming a list of dictionaries, inspect the first item
         if isinstance(data[0], dict):
             return list(data[0].keys())
     elif isinstance(data, dict):
-        # If it's a single dictionary where keys represent data points
         first_val = next(iter(data.values()))
         if isinstance(first_val, dict):
             return list(first_val.keys())
     return []
 
 
-def format_dataset(data, target_key):
-    """Adds the 'graphValue' key to each data point based on user selection."""
+def format_dataset(data, target_key, header_key):
+    """Adds 'graphValue' and 'rowHeader' keys to each data point based on selections."""
     modified_count = 0
 
     if isinstance(data, list):
         for item in data:
-            if isinstance(item, dict) and target_key in item:
-                item["graphValue"] = item[target_key]
+            if isinstance(item, dict):
+                if target_key in item:
+                    item["graphValue"] = item[target_key]
+                if header_key in item:
+                    item["rowHeader"] = item[header_key]
                 modified_count += 1
 
     elif isinstance(data, dict):
         for key, item in data.items():
-            if isinstance(item, dict) and target_key in item:
-                item["graphValue"] = item[target_key]
+            if isinstance(item, dict):
+                if target_key in item:
+                    item["graphValue"] = item[target_key]
+                if header_key in item:
+                    item["rowHeader"] = item[header_key]
                 modified_count += 1
 
     print(f"\nSuccessfully updated {modified_count} data points!")
@@ -54,6 +58,18 @@ def save_json_data(data, output_path):
     with open(output_path, "w") as file:
         json.dump(data, file, indent=4)
     print(f"Formatted dataset saved to: {output_path}")
+
+
+def get_user_choice(keys, prompt_text):
+    """Helper function to handle menu selection validation."""
+    while True:
+        try:
+            choice = int(input(prompt_text))
+            if 1 <= choice <= len(keys):
+                return keys[choice - 1]
+            print(f"Invalid selection. Please choose a number from 1 to {len(keys)}.")
+        except ValueError:
+            print("Please enter a valid integer.")
 
 
 def main():
@@ -75,31 +91,24 @@ def main():
         )
         return
 
-    print("\n--- Available Fields for Graphing ---")
+    print("\n--- Available Fields in Dataset ---")
     for index, key in enumerate(keys, 1):
         print(f"[{index}] {key}")
 
-    # 3. User selects the key
-    while True:
-        try:
-            choice = int(
-                input(
-                    f"\nSelect the number (1-{len(keys)}) you want to use as 'graphValue': "
-                )
-            )
-            if 1 <= choice <= len(keys):
-                selected_key = keys[choice - 1]
-                break
-            print("Invalid selection. Please choose a number from the list.")
-        except ValueError:
-            print("Please enter a valid integer.")
+    # 3. User selects the key for graphValue
+    prompt_graph = f"\nSelect the number (1-{len(keys)}) to use as 'graphValue': "
+    selected_graph_key = get_user_choice(keys, prompt_graph)
+    print(f"Selected graphValue field: '{selected_graph_key}'")
 
-    print(f"\nSelected field: '{selected_key}'")
+    # 4. User selects the key for rowHeader
+    prompt_header = f"\nSelect the number (1-{len(keys)}) to use as 'rowHeader': "
+    selected_header_key = get_user_choice(keys, prompt_header)
+    print(f"Selected rowHeader field: '{selected_header_key}'")
 
-    # 4. Process the data
-    formatted_data = format_dataset(data, selected_key)
+    # 5. Process the data
+    formatted_data = format_dataset(data, selected_graph_key, selected_header_key)
 
-    # 5. Save the output
+    # 6. Save the output
     base, ext = os.path.splitext(file_path)
     output_path = f"{base}_formatted{ext}"
     save_json_data(formatted_data, output_path)

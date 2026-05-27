@@ -8,7 +8,8 @@ def safe_clean_val(item):
     Returns 0.0 if the value is invalid or missing.
     """
     try:
-        raw_val = item.get('value', '0')
+        # UPDATED: Changed 'value' to 'graphValue'
+        raw_val = item.get('graphValue', '0')
         if not isinstance(raw_val, str):
             raw_val = str(raw_val)
         # Remove commas and any other non-digit chars except decimal points
@@ -53,7 +54,7 @@ def process_file(input_path):
     # 5. Generate output path
     # Split the path into (directory + filename) and extension
     file_root, file_ext = os.path.splitext(input_path)
-    output_path = f"{file_root}-formatted{file_ext}"
+    output_path = f"{file_root}-barChart{file_ext}"
 
     # 6. Save the file
     try:
