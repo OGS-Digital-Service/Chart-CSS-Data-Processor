@@ -3,15 +3,15 @@ layout: layout.njk
 title: NYS Digital Service ChartCSS Processor
 data: _analytics_formatted-barChart
 ---
-{% from './_includes/_components.njk' import barChart, pieChart with context %}
+{% from './_includes/_components.njk' import barChart, columnChart, pieChart with context %}
 
-{{
-    barChart({
+{# {{
+    columnChart({
         title:"Test bar chart number one!",
         dataSource: _analytics,
         legend:""
     })
-}}
+}} #}
 
 {# {{
     pieChart({
@@ -25,3 +25,11 @@ data: _analytics_formatted-barChart
     ]
     })
 }} #}
+
+{{
+    barChart({
+        title:"Regulatory Reform Data",
+        dataSource: _regReform,
+        legend:""
+    })
+}}

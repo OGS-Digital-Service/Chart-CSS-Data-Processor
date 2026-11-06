@@ -1,5 +1,10 @@
 {% set chartData = params.dataSource %} 
-<table class="charts-css column show-labels show-heading" id="column-chart">
+<style>
+    table.charts-css.bar {
+  --labels-size:120px;
+}
+    </style>
+<table class="charts-css bar show-labels show-heading" id="bar-chart">
     <caption>{{params.title}}</caption>
 
     <thead>
@@ -12,8 +17,9 @@
     <tbody>
         {% for row in chartData %}
         <tr>
-            <th scope="row">{{row.rowHeader}}</th>
-            <td style="--size: {{row.relative_value}}">{{row.graphValue}} </td>
+            <th scope="row">{{row.acronym}}</th>
+            <td style="--size: {{row.relative_value}}">
+                {{row.graphValue}} <span class="tooltip">{{row.agency}}</span></td>
         </tr>
         {% endfor %}
     </tbody>

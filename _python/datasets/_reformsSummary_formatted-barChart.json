@@ -1,0 +1,205 @@
+[
+    {
+        "agency": "Department of Labor (DOL)",
+        "total_reforms": 16,
+        "graphValue": 16,
+        "rowHeader": "Department of Labor (DOL)",
+        "relative_value": 1.0
+    },
+    {
+        "agency": "Workers' Compensation Board (WCB)",
+        "total_reforms": 12,
+        "graphValue": 12,
+        "rowHeader": "Workers' Compensation Board (WCB)",
+        "relative_value": 0.75
+    },
+    {
+        "agency": "Office of Information Technology Services (ITS)",
+        "total_reforms": 9,
+        "graphValue": 9,
+        "rowHeader": "Office of Information Technology Services (ITS)",
+        "relative_value": 0.5625
+    },
+    {
+        "agency": "Department of Health (DOH)",
+        "total_reforms": 8,
+        "graphValue": 8,
+        "rowHeader": "Department of Health (DOH)",
+        "relative_value": 0.5
+    },
+    {
+        "agency": "Office of Children and Family Services (OCFS)",
+        "total_reforms": 6,
+        "graphValue": 6,
+        "rowHeader": "Office of Children and Family Services (OCFS)",
+        "relative_value": 0.375
+    },
+    {
+        "agency": "Office of Addiction Services and Supports (OASAS)",
+        "total_reforms": 5,
+        "graphValue": 5,
+        "rowHeader": "Office of Addiction Services and Supports (OASAS)",
+        "relative_value": 0.3125
+    },
+    {
+        "agency": "Office of Mental Health (OMH)",
+        "total_reforms": 5,
+        "graphValue": 5,
+        "rowHeader": "Office of Mental Health (OMH)",
+        "relative_value": 0.3125
+    },
+    {
+        "agency": "Public Employment Relations Board (PERB)",
+        "total_reforms": 5,
+        "graphValue": 5,
+        "rowHeader": "Public Employment Relations Board (PERB)",
+        "relative_value": 0.3125
+    },
+    {
+        "agency": "Department of Environmental Conservation (DEC)",
+        "total_reforms": 4,
+        "graphValue": 4,
+        "rowHeader": "Department of Environmental Conservation (DEC)",
+        "relative_value": 0.25
+    },
+    {
+        "agency": "Department of Financial Services (DFS)",
+        "total_reforms": 3,
+        "graphValue": 3,
+        "rowHeader": "Department of Financial Services (DFS)",
+        "relative_value": 0.1875
+    },
+    {
+        "agency": "Department of Transportation (DOT)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Department of Transportation (DOT)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Department of Agriculture and Markets (AGM)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Department of Agriculture and Markets (AGM)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Division of Human Rights (DHR)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Division of Human Rights (DHR)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Office for People With Developmental Disabilities (OPWDD)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Office for People With Developmental Disabilities (OPWDD)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Department of Motor Vehicles (DMV)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Department of Motor Vehicles (DMV)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Office of Victim Services (OVS)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Office of Victim Services (OVS)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "State University of New York (SUNY)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "State University of New York (SUNY)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Office of the Medicaid Inspector General (OMIG)",
+        "total_reforms": 2,
+        "graphValue": 2,
+        "rowHeader": "Office of the Medicaid Inspector General (OMIG)",
+        "relative_value": 0.125
+    },
+    {
+        "agency": "Department of State (DOS)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Department of State (DOS)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Office of Parks, Recreation and Historic Preservation (OPRHP); Homes and Community Renewal (HCR)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Office of Parks, Recreation and Historic Preservation (OPRHP); Homes and Community Renewal (HCR)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Thruway Authority",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Thruway Authority",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Department of Public Service (DPS)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Department of Public Service (DPS)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Empire State Development (ESD)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Empire State Development (ESD)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Office of Temporary and Disability Assistance (OTDA)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Office of Temporary and Disability Assistance (OTDA)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Office of Children and Family Services (OCFS); State Education Department (SED)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Office of Children and Family Services (OCFS); State Education Department (SED)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Homes and Community Renewal (HCR)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Homes and Community Renewal (HCR)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "State Liquor Authority (SLA)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "State Liquor Authority (SLA)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Division of Criminal Justice Services (DCJS)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Division of Criminal Justice Services (DCJS)",
+        "relative_value": 0.0625
+    },
+    {
+        "agency": "Office of Parks, Recreation and Historic Preservation (OPRHP)",
+        "total_reforms": 1,
+        "graphValue": 1,
+        "rowHeader": "Office of Parks, Recreation and Historic Preservation (OPRHP)",
+        "relative_value": 0.0625
+    }
+]

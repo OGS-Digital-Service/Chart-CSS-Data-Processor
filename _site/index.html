@@ -30,77 +30,260 @@
     <main class="m-16" id="main-site-content-for-skiplink" >
     
 
+
+
+
+
  
-<table class="charts-css column show-labels show-heading" id="column-chart">
-    <caption>Test bar chart number one!</caption>
+<style>
+    table.charts-css.bar {
+  --labels-size:120px;
+}
+    </style>
+<table class="charts-css bar show-labels show-heading" id="bar-chart">
+    <caption>Regulatory Reform Data</caption>
 
     <thead>
         <tr>
             
-                <th scope="col">NY.gov</th>
+                <th scope="col">Department of Labor (DOL)</th>
             
-                <th scope="col">Governor</th>
+                <th scope="col">Workers&#39; Compensation Board (WCB)</th>
             
-                <th scope="col">Department of Health</th>
+                <th scope="col">Office of Information Technology Services (ITS)</th>
             
-                <th scope="col">Department of Motor Vehicles</th>
+                <th scope="col">Department of Health (DOH)</th>
             
-                <th scope="col">Department of Labor</th>
+                <th scope="col">Office of Children and Family Services (OCFS)</th>
             
-                <th scope="col">Office of Temporary and Disability Assistance</th>
+                <th scope="col">Office of Addiction Services and Supports (OASAS)</th>
             
-                <th scope="col">Department of Taxation and Finance</th>
+                <th scope="col">Office of Mental Health (OMH)</th>
             
-                <th scope="col">NY State of Health</th>
+                <th scope="col">Public Employment Relations Board (PERB)</th>
+            
+                <th scope="col">Department of Environmental Conservation (DEC)</th>
+            
+                <th scope="col">Department of Financial Services (DFS)</th>
+            
+                <th scope="col">Department of Transportation (DOT)</th>
+            
+                <th scope="col">Department of Agriculture and Markets (AGM)</th>
+            
+                <th scope="col">Division of Human Rights (DHR)</th>
+            
+                <th scope="col">Office for People With Developmental Disabilities (OPWDD)</th>
+            
+                <th scope="col">Department of Motor Vehicles (DMV)</th>
+            
+                <th scope="col">Office of Victim Services (OVS)</th>
+            
+                <th scope="col">State University of New York (SUNY)</th>
+            
+                <th scope="col">Office of the Medicaid Inspector General (OMIG)</th>
+            
+                <th scope="col">Department of State (DOS)</th>
+            
+                <th scope="col">Office of Parks, Recreation and Historic Preservation (OPRHP); Homes and Community Renewal (HCR)</th>
+            
+                <th scope="col">Thruway Authority</th>
+            
+                <th scope="col">Department of Public Service (DPS)</th>
+            
+                <th scope="col">Empire State Development (ESD)</th>
+            
+                <th scope="col">Office of Temporary and Disability Assistance (OTDA)</th>
+            
+                <th scope="col">Office of Children and Family Services (OCFS); State Education Department (SED)</th>
+            
+                <th scope="col">Homes and Community Renewal (HCR)</th>
+            
+                <th scope="col">State Liquor Authority (SLA)</th>
+            
+                <th scope="col">Division of Criminal Justice Services (DCJS)</th>
+            
+                <th scope="col">Office of Parks, Recreation and Historic Preservation (OPRHP)</th>
             
         </tr>
     </thead>
     <tbody>
         
         <tr>
-            <th scope="row">NY.gov</th>
-            <td style="--size: 0.7579">21.60% </td>
+            <th scope="row">DOL</th>
+            <td style="--size: 1">
+                16 <span class="tooltip">Department of Labor (DOL)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Governor</th>
-            <td style="--size: 0.2842">8.10% </td>
+            <th scope="row">WCB</th>
+            <td style="--size: 0.75">
+                12 <span class="tooltip">Workers&#39; Compensation Board (WCB)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Department of Health</th>
-            <td style="--size: 0.3263">9.30% </td>
+            <th scope="row">ITS</th>
+            <td style="--size: 0.5625">
+                9 <span class="tooltip">Office of Information Technology Services (ITS)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Department of Motor Vehicles</th>
-            <td style="--size: 0.2702">7.70% </td>
+            <th scope="row">DOH</th>
+            <td style="--size: 0.5">
+                8 <span class="tooltip">Department of Health (DOH)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Department of Labor</th>
-            <td style="--size: 0.0912">2.60% </td>
+            <th scope="row">OCFS</th>
+            <td style="--size: 0.375">
+                6 <span class="tooltip">Office of Children and Family Services (OCFS)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Office of Temporary and Disability Assistance</th>
-            <td style="--size: 0.2246">6.40% </td>
+            <th scope="row">OASAS</th>
+            <td style="--size: 0.3125">
+                5 <span class="tooltip">Office of Addiction Services and Supports (OASAS)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">Department of Taxation and Finance</th>
-            <td style="--size: 1">28.50% </td>
+            <th scope="row">OMH</th>
+            <td style="--size: 0.3125">
+                5 <span class="tooltip">Office of Mental Health (OMH)</span></td>
         </tr>
         
         <tr>
-            <th scope="row">NY State of Health</th>
-            <td style="--size: 0.0877">2.50% </td>
+            <th scope="row">PERB</th>
+            <td style="--size: 0.3125">
+                5 <span class="tooltip">Public Employment Relations Board (PERB)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DEC</th>
+            <td style="--size: 0.25">
+                4 <span class="tooltip">Department of Environmental Conservation (DEC)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DFS</th>
+            <td style="--size: 0.1875">
+                3 <span class="tooltip">Department of Financial Services (DFS)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DOT</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Department of Transportation (DOT)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">AGM</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Department of Agriculture and Markets (AGM)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DHR</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Division of Human Rights (DHR)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OPWDD</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Office for People With Developmental Disabilities (OPWDD)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DMV</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Department of Motor Vehicles (DMV)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OVS</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Office of Victim Services (OVS)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">SUNY</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">State University of New York (SUNY)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OMIG</th>
+            <td style="--size: 0.125">
+                2 <span class="tooltip">Office of the Medicaid Inspector General (OMIG)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DOS</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Department of State (DOS)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OPRHP; HCR</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Office of Parks, Recreation and Historic Preservation (OPRHP); Homes and Community Renewal (HCR)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">TA</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Thruway Authority</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DPS</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Department of Public Service (DPS)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">ESD</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Empire State Development (ESD)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OTDA</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Office of Temporary and Disability Assistance (OTDA)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OCFS; SED</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Office of Children and Family Services (OCFS); State Education Department (SED)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">HCR</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Homes and Community Renewal (HCR)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">SLA</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">State Liquor Authority (SLA)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">DCJS</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Division of Criminal Justice Services (DCJS)</span></td>
+        </tr>
+        
+        <tr>
+            <th scope="row">OPRHP</th>
+            <td style="--size: 0.0625">
+                1 <span class="tooltip">Office of Parks, Recreation and Historic Preservation (OPRHP)</span></td>
         </tr>
         
     </tbody>
 </table>
-
-
     </main>
       
   </body>
